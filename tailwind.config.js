@@ -12,6 +12,8 @@ export default {
       colors: {
         primary: "#4f6c7c",
         "primary-light": "#f4fbff",
+        "dark-purple": "#081A51",
+        "light-white": "rgba(255, 255, 255, 0.18)",
       },
     },
   },
