@@ -46,7 +46,7 @@ export const SideBar = () => {
   return (
     <div className="flex">
       <div
-        className={`bg-dark-purple h-screen p-5 pt-8 ${
+        className={`bg-black h-screen p-5 pt-8 ${
           open ? "w-72" : "w-20"
         }  duration-300 relative`}
       >
@@ -58,7 +58,7 @@ export const SideBar = () => {
         />
         <div className="inline-flex">
           <AiFillEnvironment
-            className={`bg-amber-300 text-4xl rounded cursor-pointer block float-left mr-2 duration-500 ${
+            className={`bg-white text-4xl rounded cursor-pointer block float-left mr-2 duration-500 ${
               open && "rotate-[360deg]"
             }`}
           />
@@ -70,7 +70,6 @@ export const SideBar = () => {
             Tailwind
           </h1>
         </div>
-
         <div
           className={`flex items-center rounded-md bg-light-white mt-6 ${
             !open ? "px-2.5" : "px-4"
